@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: blue;
+	color: whitesmoke;
+}
+.navbar li a{
+	text-decoration: none;
+}
+.navbar ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+footer{
+	position: fixed;
+	background-color: blue;
+	color: whitesmoke;
+	height: 100px;
+	max-width: 100%;
+}
