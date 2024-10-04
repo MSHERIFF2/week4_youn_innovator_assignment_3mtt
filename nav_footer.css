@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: verdana;
 }
 .navbar{
 	background-color: blue;
@@ -9,6 +10,9 @@
 }
 .navbar li a{
 	text-decoration: none;
+}
+.navbar li a:hover{
+	cursor: pointer;
 }
 .navbar ul{
 	display: flex;
