@@ -7,21 +7,68 @@
 .navbar{
 	background-color: blue;
 	color: whitesmoke;
+	height: 70px;
+	padding: 10px;
+	justify-content: right;
+	
 }
 .navbar li a{
 	text-decoration: none;
+	color: whitesmoke;
+	font-size: 18px;
+	margin-left: 20px;
+	padding: 10px;
+	
 }
 .navbar li a:hover{
 	cursor: pointer;
 }
 .navbar ul{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content:right;
+	align-content: center;
+	
+}
+.navbar ul li{
+	list-style: none;
+	
+	margin-top: 19px;
 }
 footer{
-	position: fixed;
+	position: absolute;
+	bottom: 0;
 	background-color: blue;
 	color: whitesmoke;
 	height: 100px;
-	max-width: 100%;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+
+	
+}
+.main{
+	width: 80%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px rgba(160, 230, 235, 0.9);
+	margin: auto;
+	justify-self: center;
+	align-self: center;
+	margin-top: 60px;
+	height: 300px;
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: column;
+	
+}
+.main h1{
+	text-align: center;
+}
+.main p{
+	font-size: 20px;
+	text-wrap: wrap;
+	width: 60%;
+	margin-left: 20px;
+}
+.main ul li{
+	font-size: 25px;
 }
